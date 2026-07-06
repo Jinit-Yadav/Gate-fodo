@@ -10,7 +10,7 @@ app.use(express.json());
 // ============================================================
 // MONGODB CONNECTION
 // ============================================================
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://yadavjinit08_db_user:aV8xYK4BSf95EZTG@cluster0.b2yei7o.mongodb.net/?appName=Cluster0';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://yadavjinit08_db_user:aV8xYK4BSf95EZTG@cluster0.db92m3x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
 mongoose.connect(MONGODB_URI, {
     useNewUrlParser: true,
